@@ -2,6 +2,10 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import font
 import db
+import os
+
+base_dir = os.path.dirname(__file__)
+LOGO = os.path.join(base_dir,"./logo_police_small.gif")
 
 class Nummerplaatzoeker:
     
@@ -22,7 +26,7 @@ class Nummerplaatzoeker:
         root.rowconfigure(0, weight=1)
     
         
-        logo_police = PhotoImage(file='logo_police_small.gif')
+        logo_police = PhotoImage(file=LOGO)
         logo_label = ttk.Label(mainframe, image=logo_police)
         logo_label.image = logo_police
         logo_label.grid(row=0, column=0)

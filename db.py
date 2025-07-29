@@ -1,4 +1,6 @@
-DB = "ovl.db"
+import os
+base_dir = os.path.dirname(__file__)
+DB = os.path.join(base_dir,"./ovl.db")
 
 def get_info_for_nummerplaat(nummerplaat):
     
