@@ -8,9 +8,6 @@ Deze applicatie is voor de ovl.
 
 Er moet een soort politielogo voorkomen.
 
-# Vragen stellen aan Jeroen
+# Status
 
-* Kan je de gegevens doorgeven die in de databank moeten zitten? Als je die nog niet hebt, geef dan minstens door welke velden je wil voorzien?
-* Kan je nog eens duidelijk beschrijven wat de applicatie moet doen?
-* Kan je een schets maken van de lay-out van de twee schermen, met de nodige teksten?
-* Heb je een titel voor het programma?
+Test: het was een testapplicatie die werkt zoals ze werkt. Geen verdere uitbreidingen
